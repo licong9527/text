@@ -1,0 +1,205 @@
+#sub{
+	margin-top: 50px;
+}
+#sub>.sub>a:first-child{
+	margin-right: 12px;
+}
+#recommend,#hot{
+	margin-top: 50px;
+    width: 100%;
+}
+#recommend>h2,#hot>h2{
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+#cat,#hotcat{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.product{
+	width: 263px;
+	height: 382px;
+	text-align: center;
+	margin-right: 16px;
+}
+.product:nth-child(4n){
+	margin-right: 0;
+}
+.product>a{
+	position: relative;
+}
+.product>a>img{
+	display: block;
+	background: #F9F9F9;
+	width: 263px;
+	height: 263px;
+}
+/*<div class="spec">
+							<span class="origin">￥${res[i].origin}</span>
+							<span class="cut">
+								<del>￥${res[i].cut}</del></span>
+						</div>*/
+.product>a>.spec{
+	position: absolute;
+	width: 60px;
+    height: 60px;
+    top: -250px;
+    left: -115px;
+    background-color: #d33a31;
+    border-radius: 50%;
+    color: #fff;
+}
+.spec>.origin{
+	position: absolute;
+    top: 10px;
+    left: -2px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+.spec>.cut{
+	position: absolute;
+    top: 30px;
+    left: -1px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.7;
+}					
+
+
+
+.product>h3{
+	margin-top: 8px;
+	
+}
+.product>h3>.tags{
+	box-sizing: border-box;
+    border: 1px solid #d74d45;
+    color: #d74d45;
+    line-height: 19px;
+    padding: 0 3px;
+    border-radius: 2px;
+    font-size: 12px;
+    margin-right: 5px;
+    text-align: center;
+}
+.product>p{
+	padding-top: 4px;
+    font-size: 16px;
+    color: #d33a31;
+}
+.discount {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #d33a31;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.discount>i {
+	display: block;
+}
+
+.discount .m-p {
+	font-size: 15px;
+	margin-top: 12px;
+}
+
+.discount .dis {
+	font-size: 13px;
+	text-decoration: line-through;
+}
+
+.product .p-name:hover {
+	text-decoration: underline;
+}
+
+#digital {
+	position: relative;
+	width: 100%;
+	height: 180px;
+	margin-top: 10px;
+	background: #f9f9f9;
+}
+
+#digital .d-detail {
+	width: 700px;
+	height: 100px;
+	margin-left: 60px;
+}
+
+.d-detail>.d-title {
+	display: block;
+	padding-top: 10px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #000;
+	text-indent: 39px;
+}
+
+.d-detail>.d-title>.d-bg {
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-top: 5px;
+	background: url(../images/digitalicon.png) center no-repeat;
+}
+
+.d-detail .d-thide {
+	margin-top: 9px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, .7);
+}
+
+.d-detail a {
+	display: block;
+	margin-top: 18px;
+	font-size: 24px;
+	color: #000;
+}
+
+#digital .d-img {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	width: 210px;
+	height: 120px;
+}
+
+#b-top,
+.d-img .img-r {
+	position: absolute;
+	right: 0;
+}
+
+.d-img img {
+	position: absolute;
+}
+
+.d-img .img-l {
+	width: 100px;
+	top: 10px;
+}
+
+.d-img .img-c {
+	z-index: 1;
+	left: 62px;
+}
+
+.d-img .img-r {
+	z-index: 0;
+	width: 34px;
+	height: 108px;
+	background: url(../images/pointlist.png) 0 -79px;
+	top: 6px;
+}
+

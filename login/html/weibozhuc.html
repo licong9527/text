@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/weibozhuc.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/weibozhuc.js"></script>
+</head>
+
+<body>
+    <div class="top-img"></div>
+    <div class="log-img">
+        <img src="../img/weibozhuc/logo_big.png" alt="" width="192px" height="70px">
+        <span></span>
+    </div>
+    <form action="" class="login" onsubmit="return false">
+        <div class="login-top">
+            <a href="#">个人注册</a>
+            <span>|</span>
+            <a href="#" class="nocolo-a">官方注册</a>
+        </div>
+        <div class="login-main-left">
+            <b></b><span>*</span> 手机:<input type="text" placeholder="请输入你的手机号" name="unsename" autocomplete="off" class="ipono-tis"><i><div class="tipsimg tip1"></div><sapn class="tihuan1">请输入你的手机号</sapn></i><br />
+            <p>或使用<a href="#">邮箱注册</a></p>
+            <span class="span">*</span>设置密码:<input type="password" class="input mima-tis" name="password"><i><div class="tipsimg tip2"></div><sapn class="tihuan">请输入6-16位数字、字母或常用符号，字母区分大小写</sapn></i><br>
+            <div class="shengren">
+            <span>*</span> 生日:&nbsp; &nbsp;<select id="year">
+                <option value="" class="option">请选择</option>
+            </select>年
+            <select id="month"></select>月
+            <select id="day"></select>日<i><div class="tipsimg ipono-tis tip3"></div>请选择生日</i>
+            <div class="jihuoma">
+                <span>*</span> 激活码:<button>免费获取短信激活码</button>
+                <input type="text" class="zcm"><i><div class="tipsimg yaz-tis tip4"></div>请输入短信激活码</i>
+                <p><a href="#" style="margin-left: 10px">收不到验证码?</a></p>
+            </div>
+            </div>
+            <button class="zhucbox">立即注册</button>
+            <div class="inpverify">
+                <p class="agreement"><a href="#" >微博服务使用协议</a></p>
+                <p class="agreement"><a href="#" >微博个人信息保护政策</a></p>
+                <p class="agreement"><a href="#" >全国人大常委会关于加强网络信息保护的决定</a></p>
+            </div>
+        </div>
+        <div class="login-main-right">
+            <p>已有账号, <a href="./weibo.html">直接登录»</a></p>
+            <h3>微博注册帮助</h3>
+            <ul>
+                <li><a href=""><span>1</span>微博注册操作指南</a></li>
+                <li><a href=""><span>2</span>手机注册时提示手机号码已被绑定怎么办？</a></li>
+                <li><a href=""><span>3</span>注册微博时昵称显示“已经被注册”如何处理？</a></li>
+                <li><a href=""><span>4</span>注册时提示“你所使用的IP地址异常”该怎么办？</a></li>
+                <li class="li"><a href="">更多帮助»</a></li>
+            </ul>
+            <div class="string-img"></div>
+        </div>
+
+    </form>
+    <div class="nologin_footer">
+        <div class="left_link">
+            <i class="footer_loge"></i>
+            <a  href="#"><em class="company_name">北京微梦创科网络技术有限公司</em></a>
+            <a  href="#">京网文[2017]10291-1172号</a>
+            <a  href="#">京ICP备12002058号</a>
+            <span>Copyright © 2009-2019 WEIBO</span>
+                    <select id="pl_content_changeLanguage" action-data="login=0">
+                <option selected="selected" value="zh-cn">中文(简体)</option>
+                <option value="zh-tw">中文(台湾)</option>
+                <option value="zh-hk">中文(香港)</option>
+                <option value="en-us">English</option>
+            </select>
+        </div>   
+    </div>
+</body>
+
+</html>

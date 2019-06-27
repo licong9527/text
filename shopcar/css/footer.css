@@ -1,0 +1,137 @@
+#footer,
+.foo {
+	overflow: hidden;
+}
+
+#footer {
+	position: relative;
+	height: 120px;
+	border-top: 1px solid #d3d3d3;
+	background: #f2f2f2;
+}
+.copy {
+	float: left;
+    width: 490px;
+    padding-top: 35px;
+    line-height: 24px;
+}
+
+.copy>p:first-child>a {
+	color: #999;
+	cursor: pointer;
+}
+
+.copy>p:first-child>a:hover {
+	text-decoration: underline;
+}
+
+.copy>p:first-child>span {
+	margin: 0 8px 0 10px;
+	color: #c2c2c2;
+}
+
+.copy>p,
+.copy>p>a,
+.msg {
+	color: #666;
+}
+
+.copy>p>span:first-child {
+	margin-right: 14px;
+}
+
+.icon {
+	width: 330px;
+    margin-top: 30px;
+	float: right;
+}
+
+.msg {
+	float: left;
+	width: 60px;
+	margin-left: 30px;
+}
+.msg:first-child {
+	margin-left: 0px;
+}
+.msg>a {
+	display: block;
+	float: none;
+	height: 70px;
+	font-size: 10px;
+	
+	background: url(../images/foot_enter.png)  no-repeat;
+}
+
+.msg:first-child>a{
+	background-position: -60px -80px;
+}
+
+.msg:nth-child(2)>a {
+	background-position: 0 -80px;
+}
+
+.msg:nth-child(3)>a {
+	background-position: 0 0;
+}
+
+.msg:nth-child(4)>a {
+	background-position: -60px 0;
+}
+#r-nav{
+	position: fixed;
+    z-index: 100;
+    border: 1px solid rgba(0,0,0,.4);
+    background: #fff;
+    width: 62px;
+    top: 50%;
+    right: 5px;
+    transform: translate(0,-50%);
+}
+#r-nav>ul>li>a:hover{text-decoration: none;}
+#r-nav>ul>li{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 58px;
+    height: 58px;
+    border: 1px solid rgba(236,234,234,.4)
+}
+#r-nav>ul>li>a{
+	display: block;
+    width: 60px;
+    height: 35px;
+}
+#r-nav>ul>li:last-child{
+    width: 58px;
+    height: 35px;
+}
+#r-nav>ul>li:last-child>a{
+    background:url(../images/totop.png) -68px 0 no-repeat;
+}
+#r-nav>ul>li>i{
+	display: block;
+    position: relative;
+    background:url(../images/totop.png) 0 -71px no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.mincat{
+	position: absolute;
+	top: -10px;
+    left: 15px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+	color: #fff;
+	background-color:#b93f28;
+    background: url(../images/modules.png) -156px -158px no-repeat;
+}
+.kf{
+	display: block;
+	height:20px;
+	width:20px;
+	background:url(../images/totop.png) 0 -101px no-repeat;
+}

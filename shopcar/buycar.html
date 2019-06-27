@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./js/flexible.js"></script>
+  <link rel="stylesheet" href="./css/iconfont.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/buycar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/nav.css">
+</head>
+
+<body>
+  <div class="t-header clearfix">
+		<div class="header container clearfix">
+			<div class="logo">
+				<h1><a href="../index/index.html" class="home">网易云音乐商城</a></h1>
+			</div>
+			<div id="search">
+				<input type="text" class="sear" placeholder="真无线耳机" />
+			</div>
+			<div class="shopcar">
+					<a href="../shopcar/buycar.html"><span class="iconfont icon">&#xe73d;
+						<label for="" class="number1"><span class="totalNumber">0</span></label></span></a>
+	        </div>
+			<div class="login f-l"><span>登录</span>
+				<div id="t-list">
+					<ul>
+						<i class="t-angle"></i>
+						<li>
+							<a href="https://music.163.com/store/my/order"><span class="l-bg phone"></span>我的订单</a>
+						</li>
+						<li>
+							<a href="https://music.163.com/store/my/coupon"><span class="l-bg wechat"></span>我的优惠券</a>
+						</li>
+						<li>
+							<a href="https://music.163.com/store/address"><span class="l-bg qq"></span>我的收货地址</a>
+						</li>
+						<li>
+							<a href="https://music.163.com/"><span class="l-bg sina"></span>网易云音乐首页</a>
+						</li>
+						<li>
+							<a href="https://music.163.com/store/product"><span class="l-bg could"></span>退出</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="g-list">
+    <div class="main">
+      <h3>购物车</h3>
+      <table class="table ">
+        <thead>
+          <tr class="listhead">
+            <th style="width: 52px; padding-left: 24px;"><input type="checkbox" class="all" checked="checked" onclick="btnAll(this)"></th>
+            <th style="width: 126px">全选</th>
+            <th style="width: 557px">商品</th>
+            <th style="width: 145px">金额</th>
+            <th style="width: 165px;padding-left:45px">数量</th>
+            <th style="width: 85px;padding-left:69px">小计</th>
+            <th>操作</th>
+          </tr>
+          <tr class="nav">
+            <td></td>
+            <td>全场商品( <span class="totalNumber"></span> )</td>
+            <td colspan="2"></td>
+            <td colspan="3"><a href="#"><img style="margin-left:70px;"src="./images/quan.png" alt="" class="fl" ></a>
+              <div class="fl" style="margin-left: 10px;font-size:14px; padding-top: 5px;">全场满￥199免运费 ( 还差¥1 )<a href="">去凑单</a> </div>
+            </td>
+          </tr>
+        </thead>
+
+        <tbody class="tbody">
+
+
+        <tfoot>
+          <tr class="tfoot">
+            <td style=" padding-left: 24px;"><input type="checkbox" class="all" checked="checked" onclick="btnAll(this)"></td>
+            <td>全选</td>
+            <td>已选择<span class="totalNumber"></span>件商品</td>
+            <td colspan="2" style="margin-left: 120px;text-align: right">已享受免运费|合计:<i style="font-size: 20px;color:#d33a31;">¥</i><span style="font-size: 20px;color:#d33a31;" id="totalPrice"></span> </td>
+            <td colspan="2">
+            <button class="total"
+                style="width:200px;height:60px;background-color:#d93732;cursor: pointer;border:none; color:#fff">
+                <a href="https://music.163.com/store/order/confirm?key=1559713342546&isCart=1"><i style="font-size: 20px;color:#fff">结算</i>
+              </button></a>
+            </td>
+
+          </tr>
+        </tfoot>
+
+        </tbody>
+      </table>
+      <div class="empty">
+        <i class="iconfont">&#xe73d;</i>
+        <p>购物车还是空的，<a href="../index/index.html">去逛逛</a></p>
+      </div>
+    </div>
+  </div>
+
+   <!-- 网页底部 -->
+   <div id="footer">
+    <div class="foo container">
+      <div class="copy">
+        <p>
+          <a href="https://music.163.com/about">关于网易</a><span>|</span>
+          <a href="https://help.mail.163.com/service.html">客户服务</a><span>|</span>
+          <a href="https://music.163.com/html/web2/service.html">服务条款</a><span>|</span>
+          <a href="https://sitemap.163.com/">网站导航</a><span>|</span>
+          <a href="javaScript:;">意见反馈</a></p>
+        <p><span>网易公司版权所有&copy1997-2019</span><span>杭州乐读科技有限公司运营：</span><a href="#">浙网文[2015]
+            0415-135号</a>
+      </div>
+      <div class="icon">
+        <div class="msg">
+          <a href="https://music.163.com/nmusician/web/index#"></a></div>
+        <div class="msg">
+          <a href="https://music.163.com/topic/recruit"></a></div>
+        <div class="msg">
+          <a href="https://music.163.com/topic/selfmedia"></a></div>
+        <div class="msg">
+          <a href="https://music.163.com/web/reward"></a></div>
+      </div>
+    </div>
+  </div>
+  <div id="r-nav">
+    <ul>
+      <li><a href="https://music.163.com/market/m/law">查看<br>营业执照</a></li>
+      <li>100%<br>正品</li>
+      <li>七天无理由退款</li>
+      <li><i style="margin-top: 7px;"><a href="../shopcar/buycar.html"><span class="mincat totalNumber">0</span></a></i><a href="../shopcar/buycar.html"><span >购物车</span></a></li>			
+      <li>
+        <i class="kf"></i>
+        <a href="../login/html/denlu.html"><span>客服</span></a>
+      </li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/buycar.js"></script>
+<script src="./js/wyy.js"></script>
+<script>
+  var car = new Car();
+	var cartlist = car.getCar();
+	var totalNumber = document.getElementsByClassName('totalNumber');
+	for (var i = 0; i < totalNumber.length; i++) {
+		totalNumber[i].innerText = car.getTotalNumber();
+	}	
+
+
+  //获取本地存储中的购物车商品
+  var car = new Car();
+  var cartlist = car.getCar();
+  //循环购物车商品，构建tr标签-
+
+  var str = ``;
+  for (var i = 0; i < cartlist.length; i++) {
+    var itemPrice = parseFloat(cartlist[i].price) * parseInt(cartlist[i].number);
+
+    str += `<tr class="product">
+                          <td style=" padding-left: 24px;"><input type="checkbox" class="one" checked="checked" onclick="btncheck(this)"></td>
+                          <td><img src="./images/${cartlist[i].img}.png" alt=""style="width:100px"></td>
+                          <td>${cartlist[i].title}</td>
+                          <td class = "price">${cartlist[i].price}</td>
+                          <td class="mather "><button class="fl btn1" onclick="sub(this)">-</button><input type="text" class="fl txt1" value="${cartlist[i].number}"><button class="fl btn2" onclick="add(this)">+</button></td>
+                          <td style="padding-left: 62px;color:#d33a31;" class="itemPrice">${itemPrice}</td>
+                          <td><label style="cursor: pointer;font-size:20px;" for="" onclick="del('${cartlist[i].img}')">x</label></td>
+                        </tr>`;
+    $('tbody').html(str);
+  }
+  //按钮减少
+  function sub(elebtn) {
+    var input = $(elebtn).parent().find('input');
+    var txt1 = parseInt(input.val());
+
+    if (txt1 > 1) {
+      txt1 -= 1;
+      input.val(txt1);
+
+      console.log(txt1);
+    }
+    //加入本地存储
+    // localStorage.setItem('number', 'txt1');
+
+    var Price = $(elebtn).parent().siblings().eq(3).text();
+    var itemPrice = $(elebtn).parent().siblings().eq(4);
+    var itemPrice_1 = parseInt(Price) * txt1;
+    var image_src = $(elebtn).parent().siblings().eq(1).find('img').attr('src');
+    var str = image_src.split('.');
+    var str2 = str[1].split('/');
+    var str3 = str2[2];
+    function alter_1(str3) {
+      if (car.alter2(str3)) {
+      
+      }
+    }
+    alter_1(str3);
+    itemPrice.html(itemPrice_1);
+
+    //页面得到的总数量
+    var totalNum = 0;
+    for (var i = 0; i < cartlist.length; i++) {
+      var num_6 = parseInt($('.product').eq(i).children().eq(4).find('input').val());
+      totalNum += num_6;
+
+      $(".totalNumber").html(totalNum);
+
+    }
+
+    //页面得到的总价格
+    var totalprice = 0;
+    for (var i = 0; i < cartlist.length; i++) {
+      var price_6 = parseInt($('.product').eq(i).children().eq(5).html());
+      totalprice += price_6;
+      $("#totalPrice").html(totalprice);
+    }
+
+
+
+  }
+
+
+  //按钮增加
+  function add(elebtn) {
+    var input = $(elebtn).parent().find('input');
+    var txt1 = parseInt(input.val());
+    txt1 += 1;
+    input.val(txt1);
+
+    //加入本地存储
+    var image_src = $(elebtn).parent().siblings().eq(1).find('img').attr('src');
+    var str = image_src.split('.');
+    var str2 = str[1].split('/');
+    var str3 = str2[2];
+    function alter_1(str3) {
+      if (car.alter(str3)) {
+        
+      }
+    }
+    alter_1(str3);
+
+    var Price = $(elebtn).parent().siblings().eq(3).text();
+    var itemPrice = $(elebtn).parent().siblings().eq(4);
+    var itemPrice_1 = parseInt(Price) * txt1;
+    itemPrice.html(itemPrice_1);
+
+    //页面得到的总数量
+    var totalNum = 0;
+    for (var i = 0; i < cartlist.length; i++) {
+      var num_6 = parseInt($('.product').eq(i).children().eq(4).find('input').val());
+      totalNum += num_6;
+      $(".totalNumber").html(totalNum);
+    }
+
+    //页面得到的总价格
+    var totalprice = 0;
+    for (var i = 0; i < cartlist.length; i++) {
+      var price_6 = parseInt($('.product').eq(i).children().eq(5).html());
+      console.log(price_6);
+      totalprice += price_6;
+      console.log(totalprice);
+      $("#totalPrice").html(totalprice);
+    }
+
+
+  }
+
+  //页面得到的总价格
+  var totalprice = 0;
+  for (var i = 0; i < cartlist.length; i++) {
+    var price_6 = parseInt($('.product').eq(i).children().eq(5).html());
+    totalprice += price_6;
+    $(".totalPrice").html(totalprice);
+  }
+
+
+  //得到总价格
+  document.getElementById('totalPrice').innerText = car.getTotalPrice();
+  var totalNumber = document.getElementsByClassName('totalNumber');
+  for (var i = 0; i < totalNumber.length; i++) {
+    totalNumber[i].innerText = car.getTotalNumber();
+  }
+
+
+  // function sub(img) {
+  //   car.subNum(img);
+  //   location.reload();
+  // }
+  // function add(img) {
+  //   car.addNum(img);
+  //   location.reload();
+  // }
+
+  //删除购物车商品
+  function del(img) {
+
+    if (!confirm('确认删除？')) {
+      return;
+    }
+    console.log(img);
+    if (car.delGoods(img)) {
+      location.reload();
+    } else {
+      alert('删除失败');
+    }
+  }
+
+  //如果商品数量为0，隐藏
+
+  var num = $(".totalNumber").eq(0).text();
+  if (num == "0") {
+    $(".empty").css('display', "block");
+    $(".table").css('display', "none");
+  } else {
+    $(".table").css('display', "block");
+    $(".empty").css('display', "none");
+  }
+
+  //全选
+
+
+  $(".all").on('click', function () {
+    $(".table input:checkbox").prop('checked', $(this).prop('checked'));
+    if ($(".all").is(':checked')) {
+      $(".total").css('background-color', '#d93732');
+    } else {
+      $(".total").css('background-color', '#ccc');
+    }
+  })
+
+  var flag = 0;
+  $(".one").click(function () {
+    if ($(this).prop('checked') == true) {
+      flag++;
+
+      if (flag == cartlist.length) {
+        $(".all").prop("checked", true);
+      }
+    } else {
+      flag--;
+      $(".all").prop("checked", false);
+    }
+    //安利纽变色
+   
+    if( $(".one:checked").length == 0){
+      $(".total").css('background-color', '#ccc');
+    }else{
+      $(".total").css('background-color', '#d93732');
+    }
+  })
+
+
+
+
+
+
+</script>
+
+</html>

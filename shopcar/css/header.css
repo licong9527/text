@@ -1,0 +1,181 @@
+.t-header{height: 73px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.header{
+	background:#fff;
+	height:73px;
+	width: 1100px;
+	margin: auto;
+	}
+
+.header .logo{
+	height:73px;
+	width:290px;
+	float:left;
+}
+.header>.logo a{
+	display:block;
+	height:73px;
+	width:290px;
+	background:url(../images/modules.png) 0 -46px no-repeat;
+	text-indent:-99999px;
+
+}
+.header>#search{
+	width:300px;
+	height:73px;
+	margin-left:290px;
+	float:left;
+	background:url(../images/modules.png) 0 16px no-repeat;
+}
+.sear{
+	width: 300px;
+	height: 30px;
+	margin-top: 19px;
+	margin-left: 34px;
+	width: 80%;
+	border: 0;
+}
+.shopcar{
+	float:left;
+	width:116px;
+	height:73px; 
+	background-color:#fff;}
+.number1{
+    width:18px;
+    height:18px;
+    border-radius:50% ;
+    background: #b93f28;
+    font-size: 14px;
+    color:#fff;
+    position: absolute; 
+	left:24px;
+	top:-5px;
+    text-align: center;
+}
+.shopcar a{text-decoration: none;}
+.shopcar .icon{
+	display:block;
+    font-size:34px;
+    width:38px;
+	height:55px;
+	margin-left: 68px;
+	margin-top: 18px;
+    background-color: #fff;
+    position: relative;
+
+} 
+/* .car .cnum{
+	height:36px;
+	width:36px;
+	float:left;
+	margin:17px 0 0 41px;
+}
+.cnum{
+	display:block;
+	background-color:#fff;
+	position: relative;
+	height:36px;
+	width:36px;
+	background:url(../images/modules.png) -110px -158px no-repeat;
+	text-indent:-99999px;
+} */
+
+.login {
+	width: 63px;
+	height: 58px;
+	position: relative;
+	font-size: 14px;
+	float: right;
+	margin: 15px 0 0 37px;
+	background: url(../images/arrow-d.png) 38px 12px no-repeat
+}
+
+.login:hover {
+	background: url(../images/arrow-d.png) 38px 12px no-repeat
+}
+
+.login>span {
+	display: block;
+	margin-top: 9px;
+	font-weight: 700
+}
+
+.login>#t-list {
+	z-index: 10;
+	height: 200px;
+	width: 160px;
+	background: #fff;
+	position: absolute;
+	top: 54px;
+	left: -61px;
+	display: none;
+	box-shadow: 0 4px 7px #555;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .9)
+}
+
+#t-list ul {
+	position: relative
+}
+
+#t-list .t-angle {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	border-top: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #eeecec;
+	margin-top: -19px;
+	left: 50%;
+	transform: translate(-50%, 0)
+}
+
+#t-list li {
+	height: 40px;
+	line-height: 40px
+}
+
+#t-list li a {
+	display: block;
+	width: 160px;
+	height: 40px
+}
+
+#t-list li .l-bg {
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	width: 18px;
+	height: 18px;
+	margin: 0 5px 0 15px
+}
+
+#t-list li .phone {
+	background: url(../images/phonelog.png) center no-repeat
+}
+
+#t-list li .wechat {
+	background: url(../images/logins.png) -84px 2px no-repeat
+}
+
+#t-list li .qq {
+	background: url(../images/logins.png) -112px 2px no-repeat
+}
+
+#t-list li .sina {
+	background: url(../images/sina.png) center no-repeat
+}
+
+#t-list li .could {
+	background: url(../images/netease.png) center no-repeat
+}
+
+#t-list li:hover {
+	background: #f8f8f8
+}
+
+.t-angle a:hover{text-decoration: none;}
+
+

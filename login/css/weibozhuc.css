@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0a8cd2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background: url(../img/weibozhuc/reg_repeat_bg.png) repeat-x;
+}
+
+.top-img {
+    background: url(../img/weibozhuc/top_line_bg.png) no-repeat 0 0;
+    height: 10px;
+}
+
+.log-img {
+    margin: 0 auto;
+    width: 192px;
+    height: 70px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.log-img span {
+    background: url(../img/weibozhuc/bg_reg_wave.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 896px;
+    height: 186px;
+    left: -360px;
+    top: -40px;
+}
+
+.login {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 900px;
+    height: 566.6px;
+    margin-top: 75px;
+    border-radius: 5px;
+    box-shadow: rgb(179, 194, 206) 1px 3px;
+}
+
+.login-top {
+    height: 82px;
+    margin-left: 40px;
+}
+
+.login-top a {
+    color: black;
+    font-size: 22px;
+    line-height: 87px;
+    border-bottom: 3px solid darkorange;
+}
+
+.login-top a:hover {
+    text-decoration: none;
+}
+
+.login-top .nocolo-a {
+    border: none;
+}
+
+.login-top span {
+    color: rgb(162, 170, 170);
+    padding: 0 20px;
+}
+
+.login-main-right {
+    float: right;
+    width: 210px;
+    height: 282px;
+    margin: 30px 30px;
+    position: relative;
+}
+
+.login-main-right p {
+    font-size: 14px;
+    border-bottom: 1px dotted silver;
+    padding: 0 0 6px 0;
+}
+
+.login-main-right h3 {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.login-main-right ul {
+    list-style: none;
+}
+
+.login-main-right ul li a {
+    font-size: 12px;
+    display: block;
+    padding: 5px 0 5px 0px;
+    line-height: 1.5;
+}
+
+.login-main-right .li {
+    padding: 10px 30px;
+}
+
+.login-main-right ul li span {
+    height: 20px;
+    width: 16px;
+    display: block;
+    float: left;
+    margin-right: 6px;
+    background: url(../img/weibozhuc/bg_listNum.png) no-repeat;
+    color: #ffffff;
+    text-align: center;
+}
+
+.string-img {
+    position: absolute;
+    background: url(../img/weibozhuc/reg_vline.png) no-repeat;
+    width: 1px;
+    height: 414px;
+    top: -45px;
+    left: -30px;
+}
+
+.login-main-left {
+    float: left;
+    margin-top: 30px;
+    font-size: 14px;
+    position: relative;
+}
+
+.login-main-left input {
+    height: 25px;
+    width: 195px;
+    margin-left: 10px;
+
+}
+
+.login-main-left span {
+    color: rgb(228, 30, 30);
+    padding-top: 6px;
+    display: block;
+    float: left;
+    padding-right: 9px;
+    margin-left: 130px;
+    font-weight: 600;
+}
+
+.login-main-left b {
+    left: 127px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 23px;
+    position: absolute;
+    background: url(../img/weibozhuc/reg_method_s.png) no-repeat 0 -22px;
+    margin-left: -30px;
+}
+
+.login-main-left .span {
+    margin-left: 103px;
+}
+
+.login-main-left p {
+    margin: 5px 0 15px 186px;
+    font-size: 12px;
+}
+
+.login-main-left .shengren {
+    margin-top: 20px;
+}
+
+.login-main-left .jihuoma {
+    margin-top: 20px;
+    margin-left: -14px;
+}
+
+.jihuoma button {
+    padding: 8px 4px;
+    width: 124px;
+    font-size: 12px;
+    margin-left: 5px;
+    border: none;
+    background-color: #f1eeee
+}
+
+.jihuoma button:hover {
+    background-color: #ffb33b;
+    color: #ffffff;
+}
+
+.jihuoma input {
+    width: 58px;
+    height: 26px;
+    /* float: left; */
+}
+
+.login-main-left .zhucbox {
+    height: 40px;
+    width: 198px;
+    border: none;
+    background-color: #ffb33b;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 7px 180px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.agreement {
+    margin: 0 0 7px 180px !important;
+}
+
+.nologin_footer {
+    position: relative;
+    margin-left: 540px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: darkgrey;
+}
+
+.nologin_footer a {
+    color: darkgrey;
+}
+
+.nologin_footer span {
+    margin-left: 160px;
+}
+
+.footer_loge {
+    display: block;
+    width: 26px;
+    height: 21px;
+    background: url(../img/weibozhuc/reg_ico.png) no-repeat 0 4px;
+    position: absolute;
+    padding-right: 20px;
+    margin-left: -25px;
+
+}
+
+.login-main-left i {
+    margin-right: 5px;
+    position: relative;
+    margin-top: 7px;
+    font-size: 12px;
+    color: rgba(41, 43, 43, 0.74);
+    display: none;
+    float: right;
+    width: 232px;
+    margin-left: 5px;
+    font-style: normal;
+}
+
+.tipsimg {
+    float: left;
+    width: 16px;
+    height: 20px;
+    background: url(../img/icon_tips.gif) no-repeat -237px -67px;
+    left: 50px;
+    margin-right: 3px;
+}
+
+.xtipsimg {
+    float: left;
+    width: 16px;
+    height: 20px;
+    background: url(../img/icon_tips.gif) no-repeat -134px 0;
+    background-size: 150px;
+    margin-right: 3px;
+}
+.xxtipsimg{
+    float: left;
+    width: 16px;
+    height: 20px;
+    background: url(../img/icon_tips.gif) no-repeat 0px 0px;
+    background-size: 150px;
+    margin-right: 3px;
+}

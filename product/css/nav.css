@@ -1,0 +1,60 @@
+#nav-tab {
+	height: 80px;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+#nav-tab>.n-tab {
+	height: 80px;
+	background: #fff;
+}
+
+#nav-tab .tab {
+	float: left;
+	width: 275px;
+	height: 80px;
+}
+
+#nav-tab .tab>a {
+	display: block;
+	float: left;
+	width: 250px;
+	height: 80px;
+	padding: 0 10px;
+	font-size: 0;
+	text-align: center;
+}
+
+.tab .right,
+.tab>a>span {
+	padding-left: 12px;
+	font-size: 14px;
+	color: #333;
+	display: inline-block;
+}
+
+.tab>a>img {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	vertical-align: top;
+	padding-top: 16px;
+}
+.right{
+	padding-top: 16px;
+}
+.tab>a>span {
+	height: 80px;
+	line-height: 80px;
+}
+
+.tab .right span {
+	color: #d33a31;
+}
+
+.tab>.line {
+	display: inline-block;
+	width: 1px;
+	height: 48px;
+	background-color: rgb(0, 0, 0, .1);
+	margin-top: 16px;
+}

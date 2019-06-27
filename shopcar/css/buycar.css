@@ -1,0 +1,153 @@
+.main{
+    width:1100px;
+    margin: 0 auto;
+    font-size:14px;
+}
+a{text-decoration: none;cursor: pointer;}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+
+.g-header-fl{
+    padding:19px 0;
+}
+.search{
+    border: 2px solid #cccccc4b;
+    border-radius: 20px 20px;
+    margin: 20px 0;
+    
+}
+.btn{
+    width:31px;
+    height:39px;
+    border:none;
+    outline:none;
+    border-radius: 20px 0 0 20px;
+    background:#fff url(../images/search.png)no-repeat center center;
+}
+.txt{
+    width:339px;
+    height:39px;
+     border:none; 
+    outline: none;
+    border-radius:0 20px 20px 0;
+}
+.user{
+    margin-left: 50px;
+    padding-top: 20px;
+    
+}
+.user .number{
+    width:16px;
+    height:16px;
+    border-radius:50% ;
+    background: #b93f28;
+    font-size: 14px;
+    color:#fff;
+    position: absolute; 
+    left:28px;
+    top:-5px;
+    text-align: center;
+}
+.user a{
+    color:#333333
+    }
+
+.user .g-ic{
+    font-size:38px;
+    line-height: center;
+    display: inline-block;
+    position: relative;
+    right:-11px;
+}
+.user img{
+  margin:0 12px 0 47px;  
+  display: inline-block;  
+}
+.xiala{
+  /* padding:18px 4px 0 0px;   
+  display: inline-block;  */
+  line-height: 50px;
+}
+.g-list h3{
+    font-size: 22px;
+    padding:42px 0 30px 0; 
+    width: 100%;
+    border-bottom:1px solid #333333;
+}
+.table{
+    width:100%;
+    padding-right: 24px;
+   
+}
+.table [type="checkbox"]{
+    width: 22px;
+    height:22px;
+    
+}
+ thead .listhead{
+    width:100%;
+    line-height:81px;  
+   
+}
+
+.table .tbody{
+    border:1px solid #f4f4f4;
+    width: 100%;
+}
+
+ .nav{
+    background-color: #f4f4f4;
+    height:48px;
+    width: 100%;
+    border: 1px solid #f4f4f4;  
+}
+.tbody .product{
+    height:144px;
+}
+.mather button{
+    background-color: #fff;
+    width: 40px;
+    height:36px;
+    border:1px solid #e6e6e6;
+    font-size:16px;
+}
+ .mather input{
+    width:74px;
+    height:34px;
+    border-left:none;
+    border-right:none;
+    border-top:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6;
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+}
+.tfoot{
+    border-top: 1px solid #e4e4e4;
+}
+tfoot{
+    border: 1px solid #f4f4f4;
+}
+.empty{
+    padding-left: 470px;
+    padding-top:50px;
+    display: none;
+}
+.empty i{
+   font-size: 140px;
+   color: #333333;
+   padding-left: 14px;
+    
+}
+.empty p{
+    font-size: 18px;  
+ }
+
+ .selected{
+    background-color:#ccc;
+ }
+ .total a:hover{text-decoration: none;}

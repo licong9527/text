@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none;
+}
+
+.head {
+    height: 80px;
+}
+
+.inhead {
+    width: 1100px;
+    height: 80px;
+    margin: auto;
+    border-bottom: 1px solid #333
+}
+
+.inhead a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold
+}
+
+.inhead p {
+    height: 21px;
+    padding-top: 45px;
+    color: #999
+}
+
+.main {
+    height: 530px;
+}
+
+.inmain {
+    width: 1100px;
+    height: 530px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.product-left {
+    width: 440px;
+    height: 530px;
+    float: left;
+    position: relative;
+}
+
+.middle {
+    width: 440px;
+    height: 400px;
+}
+
+.mright {
+    width: 580px;
+    height: 530px;
+    float: right;
+}
+
+.mright h2 {
+    line-height: 34px;
+    color: #333;
+    font-size: 24px;
+    font-weight: normal
+}
+
+.txt {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #999;
+}
+
+.price {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.rmb {
+    font-size: 30px;
+    margin-right: 3px;
+    color: #d33a31;
+}
+
+.del {
+    font-size: 16px;
+    color: #999;
+    padding-left: 10px;
+    text-decoration: line-through
+}
+
+.tip {
+    width: 580px;
+    height: 34px;
+    padding-top: 16px;
+}
+
+.tip ul li {
+    width: 66px;
+    height: 30px;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    float: left;
+    line-height: 34px
+}
+
+.li {
+    margin-left: 10px;
+}
+
+.tip ul button {
+    width: 66px;
+    height: 34px;
+    color: #333;
+    font-weight:normal;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.sec {
+    margin-top: 17px;
+    height: 32px;
+}
+
+.sec li {
+    float: left;
+    font-size: 14px;
+    color: #333;
+}
+
+.sec button {
+    width: 35px;
+    height: 32px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 26px;
+    cursor: pointer
+}
+
+.fw {
+    margin-top: 20px;
+    height: 20px;
+}
+
+.fw li {
+    float: left;
+    line-height: 20px;
+    margin-right: 28px;
+    color: #333;
+    font-size: 14px;
+}
+
+.fw li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.fw li a:hover {
+    text-decoration: underline
+}
+
+.buy {
+    width: 580px;
+    height: 80px;
+    margin-top:20px;
+}
+
+.buy1 {
+    background-color: #fff;
+    color: #d33a31
+}
+
+.buy input {
+    display: inline-block;
+    cursor: pointer;
+    width: 170px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: 2px solid #d33a31
+}
+
+.car {
+    background-color: #d33a31;
+    margin-left: 20px;
+    color: #fff
+}
+
+.text {
+    width: 100%;
+}
+
+.intext {
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.tleft {
+    width: 700px;
+    float: left;
+}
+
+.tright {
+    width: 340px;
+    height: 638px;
+    float: right;
+}
+
+.top1 {
+    width: 700px;
+    height: 48px;
+    border-bottom: 1px solid #000
+}
+
+.top2 {
+    width: 340px;
+    height: 48px;
+    border-bottom: 1px solid #000
+}
+
+.list {
+    width: 340px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.rt {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.xq {
+    width: 230px;
+    height: 100px;
+    float: right;
+    font-size: 12px;
+}
+
+.xq a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.xq a:hover {
+    text-decoration: underline;
+}
+
+.tj {
+    border: 1px solid #d74d45;
+    color: #d74d45;
+}
+
+.xq p {
+    font-size: 16px;
+    color: #d33a31;
+    padding-top: 40px;
+}
+
+
+
+
+/* 放大镜 */
+.product-left {
+    width: 440px;
+    height: 530px;
+    float: left;
+}
+
+.boxhide,.bigpic-hide {display: none}
+
+.boxshows,.bigpic-show {display: block}
+
+.smallpic {
+    padding-left: 10px;
+    overflow: hidden;
+    height: 80px;
+    width: 440px;
+    position: relative;
+}
+
+.smallp {
+    position: absolute;
+    width: 440px;
+}
+
+.numpic {
+    width: 76px;
+    height: 76px;
+    border: 2px solid #fff
+}
+
+.span {
+    float: left;
+    margin-left: 10px;
+}
+
+.numpic:hover {
+    border: 2px solid red
+}
+
+#move {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-color: #000;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    display: none;
+    cursor: move;
+}
+
+#middlepic {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#bigpic {
+    width: 530px;
+    height: 530px;
+    position: absolute;
+    left: 460px;
+    top: 0;
+    display: none;
+    overflow: hidden;
+}
+
+#bigpic img {
+    width: 880px;
+    height: 880px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/**********conan**********/
+.hidden_x{
+    display:none;
+}

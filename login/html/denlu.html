@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/denlu.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/denlu.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="warp">
+            <h1>
+                <a href="../../index/index.html" class="logo"></a>
+            </h1>
+            <ul class="c-nav">
+                <li><a href="#">发现音乐</a><sup class="jiantou-img"></sup></li>
+                <li><a href="#">我的音乐</a></li>
+                <li><a href="#">朋友</a></li>
+                <li><a href="#">商城</a></li>
+                <li><a href="#">音乐人</a></li>
+                <li><a href="#">下载客户端</a><sup class="hto-img"></sup></li>
+            </ul>
+            <div class="seek" id="seekbtn">
+                <a href="#"><span class="seek-img"></span></a>
+                <div>
+                    <input class="seek1" type="text" value="音乐/视频/电台/用户">
+
+                </div>
+            </div>
+            <div class="box">
+                创作者中心
+            </div>
+            <div class="enter">
+                <a href="#">登录</a>
+                <span></span>
+                <div class="pull-down-list">
+                    <ul>
+                        <li id="phone-up"><span class="img1"></span><a href="#">手机号登录</a></li>
+                        <li><span class="img2"></span><a
+                                href="https://open.weixin.qq.com/connect/qrconnect?appid=wxe280063f5fb2528a&response_type=code&redirect_uri=https://music.163.com/back/weichat&forcelogin=true&scope=snsapi_login&state=uKClbaTYug&checkToken=9ca17ae2e6ffcda170e2e6eeccbc6281bcc0dab43eafa88eb3c54f868a9aaebb63f39b8884c443a9aa8496d92af0feaec3b92af5a99783ed7abab18fb4c85b969b9eb7d15b9bb1a7d1d148a29aa8d2e469aa9cee9e&lang=zh_CN#wechat_redirect">微信登录</a>
+                        </li>
+                        <li><span class="img3"></span><a
+                                href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=100495085&response_type=code&redirect_uri=https://music.163.com/back/qq&forcelogin=true&state=kVnbLIjyAL&checkToken=9ca17ae2e6ffcda170e2e6eeccbc6281bcc0dab43eafa88eb3c54f868a9aaebb63f39b8884c443a9aa8496d92af0feaec3b92aaf86bda7e67f98b7f9b7f34f928b8bb2c54fa8eca289d16fa398afaff240b8edee9e">QQ登录</a>
+                        </li>
+                        <li><span class="img4"></span><a href="weibo.html">新浪微博登录</a></li>
+                        <li id="wy-up"><span class="img5"></span><a href="#">网易邮箱账号登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-nav">
+        <div class="warp">
+            <ul>
+                <li><a href="#">推荐</a></li>
+                <li><a href="#">排行榜</a></li>
+                <li><a href="#">歌单</a></li>
+                <li><a href="#">主播电台</a></li>
+                <li><a href="#">歌手</a></li>
+                <li><a href="#">新碟上架</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ---------------------------------导航条-------------------------------------------------------------- -->
+    <div class="content">
+        <h3>请用你的云音乐账号登录</h3>
+        <div class="content-centre">
+            <div class="centre-left-box">
+                <img src="../img/platform.png" alt="" class="img1">
+                <input type="submit" value="手机号登录" class="bgcolor"><br>
+                <input type="submit" value="注   册" class="zhuc">
+            </div>
+            <div class="centre-right-box">
+                <ul>
+                    <li><span class="img1"></span><a
+                            href="https://open.weixin.qq.com/connect/qrconnect?appid=wxe280063f5fb2528a&response_type=code&redirect_uri=https://music.163.com/back/weichat&forcelogin=true&scope=snsapi_login&state=uKClbaTYug&checkToken=9ca17ae2e6ffcda170e2e6eeccbc6281bcc0dab43eafa88eb3c54f868a9aaebb63f39b8884c443a9aa8496d92af0feaec3b92af5a99783ed7abab18fb4c85b969b9eb7d15b9bb1a7d1d148a29aa8d2e469aa9cee9e&lang=zh_CN#wechat_redirect">微信登录</a>
+                    </li>
+                    <li><span class="img2"></span><a
+                            href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=100495085&response_type=code&redirect_uri=https://music.163.com/back/qq&forcelogin=true&state=kVnbLIjyAL&checkToken=9ca17ae2e6ffcda170e2e6eeccbc6281bcc0dab43eafa88eb3c54f868a9aaebb63f39b8884c443a9aa8496d92af0feaec3b92aaf86bda7e67f98b7f9b7f34f928b8bb2c54fa8eca289d16fa398afaff240b8edee9e">QQ登录</a>
+                    </li>
+                    <li><span class="img3"></span><a href="weibo.html">微博登录</a></li>
+                    <li id="wy-up1"><span class="img4"></span><a href="#">网易邮箱账号登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------底部------------------------------------------------------ -->
+    <div class="bottom">
+        <div class="bottom-content">
+            <div class="bottom-content-left">
+                <ul>
+                    <li><a href="#" class="a1">关于网易</a></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li><a href="#">服务条款</a></li>
+                    <li><a href="#">隐私政策</a></li>
+                    <li><a href="#">版权投诉指引</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                </ul><br>
+                <p>网易公司版权所有©1997-2019杭州乐读科技有限公司运营：浙网文[2018]3506-263号</p>
+                <p>违法和不良信息举报电话：0571-89853516 举报邮箱：ncm5990@163.com</p>
+            </div>
+            <div class="bottom-content-right">
+                <a href="#" class="img1"><b>视频奖励</b></a>
+                <a href="#" class="img2"><b>赞赏</b></a>
+                <a href="#" class="img3"><b>独立音乐人</b></a>
+                <a href="#" class="img4"><b>用户认证</b></a>
+            </div>
+        </div>
+    </div>
+    <!-- 遮罩层 -->
+    <div class="cover"></div>
+    <!-- 登录框 -->
+    <div class="enter-case">
+        <div class="return-case-nave">
+            <p>手机号登录</p>
+            <span id="phone-sut">X</span>
+        </div>
+        <form spellcheck="false" class="form-ipone" onsubmit="return false">
+            <input type="text" autocomplete="off" placeholder="请输入手机号" class="input" id="phone-phone" name="unsename"><br />
+            <input type="password" placeholder="请输入密码" class="input" id="phone-password" name="password"><br>
+            <div class="tis-1" id="id-1" style="display: none">
+                <div class="jis-img"></div>
+                <h5>请输入手机号</h5>
+            </div>
+            <input type="checkbox" class="checkbox">
+            <div class="styletext">自动登录<a href="#">忘记密码?</a></div>
+
+        </form>
+        <button id="ipone-dl-btn">登&nbsp;&nbsp;录</button>
+        <div class="content-centre">
+            <div class="enter-case-bottom">
+                <a href="#" class="a1" id="return-up">&lt;&nbsp;&nbsp;其他登录方式</a>
+                <a href="#" class="a2">没有帐号？免费注册&nbsp;&nbsp;&gt</a>
+            </div>
+        </div>
+    </div>
+    <!-- 网易账号登录框 -->
+    <div class="wyenter-case">
+        <div class="return-case-nave">
+            <p>网易账号邮箱登录</p>
+            <span id="wy-sut">X</span>
+        </div>
+        <div class="content-centre">
+            <form spellcheck="false" class="form-wydl" onsubmit="return false">
+            <div style="margin-top: 25px">
+                    <P><input type="text" autocomplete="off" placeholder="请输入账号" id="wydl-zhv" name="unsename"></P>
+                    <ul id="all_email" class="all_email">
+                            <li><span class="emailText"></span>@qq.com</li>
+                            <li><span class="emailText"></span>@163.com</li>
+                            <li><span class="emailText"></span>@souhu.com</li>
+                            <li><span class="emailText"></span>@sina.com.cn</li>
+                            <li><span class="emailText"></span>@gmail.com</li>
+                            <li><span class="emailText"></span>@yahoo.com.cn</li>
+                            <li><span class="emailText"></span>@yeah.net</li>
+                        </ul>
+                    <p><input type="password" placeholder="请输入密码" id="wydl-password" name="password"></p>
+            </div>
+            <div class="tis-3" id="id-2" style="display: none; margin-left: 158px;">
+                <div class="jis-img"></div>
+                <h5>请输入手机号</h5>
+            </div>
+            <div class="bottom-wydl">
+                <label class="bottom-label"><input type="checkbox" checked="checked" class="u-auto">自动登录</label>
+                <a href="#" class="f-fr s-fc3">忘记密码？</a>
+            </div>
+            <button id="wy-dl-btn">登&nbsp;&nbsp;&nbsp;录</button>
+            </form>
+            </div>
+       
+        <div class="bottom-wydlbtn">
+            <a href="#" id="wyreturn-up">&lt;&nbsp;&nbsp;其他登录方式</a>
+        </div>
+    </div>
+    <!-- 注册框 -->
+    <div class="login-case">
+        <div class="return-case-nave">
+            <p>手机号注册</p>
+            <span id="zcreturn-sut">X</span>
+        </div>
+        <div class="content-centre">
+            <h6 style="margin-top: 30px">手机号:</h6>
+            <form spellcheck="false" class="form-zc" onsubmit="return false">
+                <p>
+                    <input type="text" autocomplete="off" placeholder="请输入手机号" name="unsename" id="zc-phonev">
+                </p>
+                <h6>密码:</h6>
+                <p>
+                    <input type="password" placeholder="设置登录密码,不少于6位" name="password" id="zc-passwordv">
+                </p>
+                <div class="tis-2" id="id-3" style="display: none;margin-left: 158px;">
+                    <div class="jis-img"></div>
+                    <h5>请输入手机号</h5>
+                </div>
+                <button id="zhuc-btn">下一步</button>
+            </form>
+        </div>
+        <div class="bottom-zcdlbtn">
+            <a href="#" id="zcreturn-up">&lt;&nbsp;&nbsp;返回登录</a>
+        </div>
+    </div>
+    <!-- 返回框 -->
+    <div class="return-case">
+        <div class="return-case-nave">
+            <p>登录</p>
+            <span id="return-sut">X</span>
+        </div>
+
+        <div class="content-centre">
+            <div class="centre-left-box">
+                <img src="../img/platform.png" alt="" class="img1">
+                <input type="submit" autocomplete="off" value="手机号登录" class="bgcolor"><br>
+                <input type="submit" value="注   册" id="zc1">
+            </div>
+            <div class="centre-right-box">
+                <ul>
+                    <li><span class="img1"></span><a
+                            href="https://open.weixin.qq.com/connect/qrconnect?appid=wxe280063f5fb2528a&response_type=code&redirect_uri=https://music.163.com/back/weichat&forcelogin=true&scope=snsapi_login&state=uKClbaTYug&checkToken=9ca17ae2e6ffcda170e2e6eeccbc6281bcc0dab43eafa88eb3c54f868a9aaebb63f39b8884c443a9aa8496d92af0feaec3b92af5a99783ed7abab18fb4c85b969b9eb7d15b9bb1a7d1d148a29aa8d2e469aa9cee9e&lang=zh_CN#wechat_redirect">微信登录</a>
+                    </li>
+                    <li><span class="img2"></span><a
+                            href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=100495085&response_type=code&redirect_uri=https://music.163.com/back/qq&forcelogin=true&state=kVnbLIjyAL&checkToken=9ca17ae2e6ffcda170e2e6eeccbc6281bcc0dab43eafa88eb3c54f868a9aaebb63f39b8884c443a9aa8496d92af0feaec3b92aaf86bda7e67f98b7f9b7f34f928b8bb2c54fa8eca289d16fa398afaff240b8edee9e">QQ登录</a>
+                    </li>
+                    <li><span class="img3"></span><a href="weibo.html">微博登录</a></li>
+                    <li><span class="img4"></span><a href="#" id="wydl2">网易邮箱账号登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
